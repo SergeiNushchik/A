@@ -1,0 +1,2882 @@
+[
+  {
+    "name": "BMW",
+    "models": [
+      {
+        "name": "3 серия",
+        "generations": [
+          {
+            "name": "E90/E91/E92/E93",
+            "years": "2005-2013",
+            "bodyTypes": ["Седан", "Универсал", "Купе", "Кабриолет"],
+            "trims": [
+              {
+                "name": "318i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N46B20", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 6 },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 143, "acceleration": 9.1
+              },
+              {
+                "name": "320i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N46B20", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 170, "acceleration": 8.1
+              },
+              {
+                "name": "320d",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N47D20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Дизель", "powerHp": 177, "acceleration": 7.9
+              },
+              {
+                "name": "325i",
+                "engine": { "type": "R6", "volume": 2.5, "code": "N52B25", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 218, "acceleration": 6.9
+              },
+              {
+                "name": "330i",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N52B30", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 272, "acceleration": 6.1
+              },
+              {
+                "name": "335i",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N54B30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 7, "name": "DCT Getrag" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 306, "acceleration": 5.6
+              },
+              {
+                "name": "M3",
+                "engine": { "type": "V8", "volume": 4.0, "code": "S65B40", "turbo": false, "cylinders": 8, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 7, "name": "DCT Getrag" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 420, "acceleration": 4.7
+              }
+            ]
+          },
+          {
+            "name": "F30/F31/F34/F35",
+            "years": "2012-2019",
+            "bodyTypes": ["Седан", "Универсал", "Gran Turismo"],
+            "trims": [
+              {
+                "name": "316i",
+                "engine": { "type": "R4", "volume": 1.6, "code": "N13B16", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 136, "acceleration": 8.7
+              },
+              {
+                "name": "320i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N20B20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 184, "acceleration": 7.3
+              },
+              {
+                "name": "320d",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N47D20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Дизель", "powerHp": 184, "acceleration": 7.2
+              },
+              {
+                "name": "328i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N20B20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 245, "acceleration": 5.9
+              },
+              {
+                "name": "330e",
+                "engine": { "type": "R4 + Электро", "volume": 2.0, "code": "B48B20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Гибрид", "powerHp": 252, "acceleration": 6.1
+              },
+              {
+                "name": "M3",
+                "engine": { "type": "R6", "volume": 3.0, "code": "S55B30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 7, "name": "DCT Getrag" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 431, "acceleration": 4.1
+              }
+            ]
+          },
+          {
+            "name": "G20/G21/G28",
+            "years": "2019-н.в.",
+            "bodyTypes": ["Седан", "Универсал"],
+            "trims": [
+              {
+                "name": "320i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "B48B20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 184, "acceleration": 7.1
+              },
+              {
+                "name": "320d",
+                "engine": { "type": "R4", "volume": 2.0, "code": "B47D20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 190, "acceleration": 6.9
+              },
+              {
+                "name": "M340i xDrive",
+                "engine": { "type": "R6", "volume": 3.0, "code": "B58B30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 374, "acceleration": 4.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "5 серия",
+        "generations": [
+          {
+            "name": "E60/E61",
+            "years": "2003-2010",
+            "bodyTypes": ["Седан", "Универсал"],
+            "trims": [
+              {
+                "name": "520i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N46B20", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 170, "acceleration": 8.5
+              },
+              {
+                "name": "525i",
+                "engine": { "type": "R6", "volume": 2.5, "code": "N52B25", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 218, "acceleration": 7.5
+              },
+              {
+                "name": "530i",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N52B30", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 272, "acceleration": 6.5
+              },
+              {
+                "name": "530d",
+                "engine": { "type": "R6", "volume": 3.0, "code": "M57D30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Задний", "fuelType": "Дизель", "powerHp": 235, "acceleration": 6.6
+              },
+              {
+                "name": "M5",
+                "engine": { "type": "V10", "volume": 5.0, "code": "S85B50", "turbo": false, "cylinders": 10, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 7, "name": "SMG III" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 507, "acceleration": 4.7
+              }
+            ]
+          },
+          {
+            "name": "F10/F11",
+            "years": "2010-2017",
+            "bodyTypes": ["Седан", "Универсал", "Gran Turismo"],
+            "trims": [
+              {
+                "name": "520i",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N20B20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 184, "acceleration": 7.9
+              },
+              {
+                "name": "520d",
+                "engine": { "type": "R4", "volume": 2.0, "code": "N47D20", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Задний", "fuelType": "Дизель", "powerHp": 184, "acceleration": 7.9
+              },
+              {
+                "name": "530d",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N57D30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 258, "acceleration": 5.9
+              },
+              {
+                "name": "M5",
+                "engine": { "type": "V8", "volume": 4.4, "code": "S63B44", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 7, "name": "DCT Getrag" },
+                "driveType": "Задний", "fuelType": "Бензин", "powerHp": 560, "acceleration": 4.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "X5",
+        "generations": [
+          {
+            "name": "E70",
+            "years": "2006-2013",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "xDrive30d",
+                "engine": { "type": "R6", "volume": 3.0, "code": "M57D30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 235, "acceleration": 8.1
+              },
+              {
+                "name": "xDrive35i",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N55B30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 306, "acceleration": 6.7
+              },
+              {
+                "name": "xDrive50i",
+                "engine": { "type": "V8", "volume": 4.4, "code": "N63B44", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 407, "acceleration": 5.5
+              },
+              {
+                "name": "M50d",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N57D30S", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 381, "acceleration": 5.4
+              }
+            ]
+          },
+          {
+            "name": "F15",
+            "years": "2013-2018",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "xDrive30d",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N57D30", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 258, "acceleration": 6.9
+              },
+              {
+                "name": "xDrive40d",
+                "engine": { "type": "R6", "volume": 3.0, "code": "N57D30T", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 313, "acceleration": 5.9
+              },
+              {
+                "name": "xDrive50i",
+                "engine": { "type": "V8", "volume": 4.4, "code": "N63B44", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "ZF 8HP" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 450, "acceleration": 5.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toyota",
+    "models": [
+      {
+        "name": "Camry",
+        "generations": [
+          {
+            "name": "XV40",
+            "years": "2006-2011",
+            "bodyTypes": ["Седан"],
+            "trims": [
+              {
+                "name": "2.4 AT",
+                "engine": { "type": "R4", "volume": 2.4, "code": "2AZ-FE", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 5 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 167, "acceleration": 9.1
+              },
+              {
+                "name": "3.5 AT",
+                "engine": { "type": "V6", "volume": 3.5, "code": "2GR-FE", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 277, "acceleration": 7.0
+              }
+            ]
+          },
+          {
+            "name": "XV50",
+            "years": "2011-2017",
+            "bodyTypes": ["Седан"],
+            "trims": [
+              {
+                "name": "2.5 AT",
+                "engine": { "type": "R4", "volume": 2.5, "code": "2AR-FE", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 181, "acceleration": 9.0
+              },
+              {
+                "name": "3.5 AT",
+                "engine": { "type": "V6", "volume": 3.5, "code": "2GR-FE", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 277, "acceleration": 7.1
+              }
+            ]
+          },
+          {
+            "name": "XV70",
+            "years": "2018-н.в.",
+            "bodyTypes": ["Седан"],
+            "trims": [
+              {
+                "name": "2.5 AT",
+                "engine": { "type": "R4", "volume": 2.5, "code": "A25A-FKS", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 200, "acceleration": 8.3
+              },
+              {
+                "name": "3.5 AT",
+                "engine": { "type": "V6", "volume": 3.5, "code": "2GR-FKS", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 249, "acceleration": 7.1
+              },
+              {
+                "name": "2.5 Hybrid",
+                "engine": { "type": "R4 + Электро", "volume": 2.5, "code": "A25A-FXS", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Вариатор", "gears": 0, "name": "e-CVT" },
+                "driveType": "Передний", "fuelType": "Гибрид", "powerHp": 218, "acceleration": 8.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RAV4",
+        "generations": [
+          {
+            "name": "XA30",
+            "years": "2005-2012",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "2.0 MT",
+                "engine": { "type": "R4", "volume": 2.0, "code": "1AZ-FE", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 6 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 152, "acceleration": 10.2
+              },
+              {
+                "name": "2.4 AT",
+                "engine": { "type": "R4", "volume": 2.4, "code": "2AZ-FE", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 4 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 170, "acceleration": 10.6
+              }
+            ]
+          },
+          {
+            "name": "XA50",
+            "years": "2019-н.в.",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "2.0 CVT",
+                "engine": { "type": "R4", "volume": 2.0, "code": "M20A-FKS", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Вариатор", "gears": 0, "name": "Direct Shift-CVT" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 149, "acceleration": 11.0
+              },
+              {
+                "name": "2.5 AT",
+                "engine": { "type": "R4", "volume": 2.5, "code": "A25A-FKS", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 200, "acceleration": 8.5
+              },
+              {
+                "name": "2.5 Hybrid",
+                "engine": { "type": "R4 + Электро", "volume": 2.5, "code": "A25A-FXS", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Вариатор", "gears": 0, "name": "e-CVT" },
+                "driveType": "Полный", "fuelType": "Гибрид", "powerHp": 222, "acceleration": 8.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Land Cruiser Prado",
+        "generations": [
+          {
+            "name": "J150",
+            "years": "2009-2023",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "2.7 AT",
+                "engine": { "type": "R4", "volume": 2.7, "code": "2TR-FE", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 163, "acceleration": 13.9
+              },
+              {
+                "name": "4.0 AT",
+                "engine": { "type": "V6", "volume": 4.0, "code": "1GR-FE", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 282, "acceleration": 8.8
+              },
+              {
+                "name": "2.8 Diesel AT",
+                "engine": { "type": "R4", "volume": 2.8, "code": "1GD-FTV", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 200, "acceleration": 9.9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Volkswagen",
+    "models": [
+      {
+        "name": "Polo",
+        "generations": [
+          {
+            "name": "VI (AW/BZ)",
+            "years": "2020-н.в.",
+            "bodyTypes": ["Хэтчбек", "Седан"],
+            "trims": [
+              {
+                "name": "1.6 MPI MT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "CWVA", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 5 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 11.2
+              },
+              {
+                "name": "1.6 MPI AT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "CWVA", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin AQ250" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 12.1
+              },
+              {
+                "name": "1.4 TSI DSG",
+                "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 7, "name": "DQ200" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Golf",
+        "generations": [
+          {
+            "name": "VII (5G)",
+            "years": "2012-2020",
+            "bodyTypes": ["Хэтчбек", "Универсал"],
+            "trims": [
+              {
+                "name": "1.6 MPI",
+                "engine": { "type": "R4", "volume": 1.6, "code": "CWVA", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin AQ250" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 11.9
+              },
+              {
+                "name": "1.4 TSI",
+                "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 7, "name": "DQ200" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.2
+              },
+              {
+                "name": "2.0 TDI",
+                "engine": { "type": "R4", "volume": 2.0, "code": "CRBC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 6, "name": "DQ250" },
+                "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 8.6
+              },
+              {
+                "name": "GTI",
+                "engine": { "type": "R4", "volume": 2.0, "code": "CHHB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 6, "name": "DQ250" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 220, "acceleration": 6.3
+              },
+              {
+                "name": "R",
+                "engine": { "type": "R4", "volume": 2.0, "code": "CJXC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 6, "name": "DQ250" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 300, "acceleration": 5.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tiguan",
+        "generations": [
+          {
+            "name": "II (AD/BW)",
+            "years": "2016-н.в.",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "1.4 TSI FWD",
+                "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin AQ250" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 125, "acceleration": 10.5
+              },
+              {
+                "name": "1.4 TSI 4Motion",
+                "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 6, "name": "DQ250" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 150, "acceleration": 9.3
+              },
+              {
+                "name": "2.0 TDI 4Motion",
+                "engine": { "type": "R4", "volume": 2.0, "code": "DFGC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 7, "name": "DQ500" },
+                "driveType": "Полный", "fuelType": "Дизель", "powerHp": 150, "acceleration": 9.3
+              },
+              {
+                "name": "2.0 TSI 4Motion",
+                "engine": { "type": "R4", "volume": 2.0, "code": "CHHB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 7, "name": "DQ500" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 220, "acceleration": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hyundai",
+    "models": [
+      {
+        "name": "Solaris / Accent",
+        "generations": [
+          {
+            "name": "II (HCR)",
+            "years": "2017-н.в.",
+            "bodyTypes": ["Седан", "Хэтчбек"],
+            "trims": [
+              {
+                "name": "1.4 MT",
+                "engine": { "type": "R4", "volume": 1.4, "code": "Kappa II", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 6 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 100, "acceleration": 12.2
+              },
+              {
+                "name": "1.4 AT",
+                "engine": { "type": "R4", "volume": 1.4, "code": "Kappa II", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 100, "acceleration": 12.9
+              },
+              {
+                "name": "1.6 AT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "Gamma II", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 123, "acceleration": 11.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tucson",
+        "generations": [
+          {
+            "name": "IV (NX4)",
+            "years": "2020-н.в.",
+            "bodyTypes": ["Внедорожник"],
+            "trims": [
+              {
+                "name": "2.0 MPI",
+                "engine": { "type": "R4", "volume": 2.0, "code": "Nu MPI", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 150, "acceleration": 12.1
+              },
+              {
+                "name": "2.5 GDI",
+                "engine": { "type": "R4", "volume": 2.5, "code": "Smartstream G2.5", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8 },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 190, "acceleration": 9.5
+              },
+              {
+                "name": "1.6 T-GDI HEV",
+                "engine": { "type": "R4 + Электро", "volume": 1.6, "code": "Smartstream G1.6 T-GDI", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 6 },
+                "driveType": "Полный", "fuelType": "Гибрид", "powerHp": 230, "acceleration": 8.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lada",
+    "models": [
+      {
+        "name": "Vesta",
+        "generations": [
+          {
+            "name": "I",
+            "years": "2015-н.в.",
+            "bodyTypes": ["Седан", "Универсал", "Cross"],
+            "trims": [
+              {
+                "name": "1.6 MT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "ВАЗ-21129", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 5 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 106, "acceleration": 11.8
+              },
+              {
+                "name": "1.6 AMT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "ВАЗ-21129", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 5, "name": "ВАЗ АМТ" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 106, "acceleration": 12.8
+              },
+              {
+                "name": "1.8 MT",
+                "engine": { "type": "R4", "volume": 1.8, "code": "ВАЗ-21179", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 5 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 122, "acceleration": 10.2
+              },
+              {
+                "name": "1.8 CVT",
+                "engine": { "type": "R4", "volume": 1.8, "code": "ВАЗ-21179", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Вариатор", "gears": 0, "name": "Jatco JF015E" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 113, "acceleration": 11.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Granta",
+        "generations": [
+          {
+            "name": "I",
+            "years": "2011-н.в.",
+            "bodyTypes": ["Седан", "Лифтбек", "Хэтчбек", "Универсал", "Cross"],
+            "trims": [
+              {
+                "name": "1.6 8V MT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "ВАЗ-11182", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+                "transmission": { "type": "МКПП", "gears": 5 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 90, "acceleration": 12.2
+              },
+              {
+                "name": "1.6 16V MT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "ВАЗ-21127", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "МКПП", "gears": 5 },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 106, "acceleration": 10.9
+              },
+              {
+                "name": "1.6 16V AT",
+                "engine": { "type": "R4", "volume": 1.6, "code": "ВАЗ-21127", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 4, "name": "Jatco JF414E" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 98, "acceleration": 13.1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Geely",
+    "models": [
+      {
+        "name": "Coolray",
+        "generations": [
+          {
+            "name": "I (SX11)",
+            "years": "2019-н.в.",
+            "bodyTypes": ["Кроссовер"],
+            "trims": [
+              {
+                "name": "1.5T DCT",
+                "engine": { "type": "R3", "volume": 1.5, "code": "JLH-3G15TD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 7, "name": "Getrak 7DCT" },
+                "driveType": "Передний", "fuelType": "Бензин", "powerHp": 177, "acceleration": 7.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Atlas Pro",
+        "generations": [
+          {
+            "name": "I",
+            "years": "2021-н.в.",
+            "bodyTypes": ["Кроссовер"],
+            "trims": [
+              {
+                "name": "1.5T Mild Hybrid",
+                "engine": { "type": "R3 + Электро", "volume": 1.5, "code": "JLH-3G15TD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+                "transmission": { "type": "Робот", "gears": 7, "name": "Getrak 7DCT" },
+                "driveType": "Полный", "fuelType": "Гибрид", "powerHp": 177, "acceleration": 8.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Monjaro",
+        "generations": [
+          {
+            "name": "I",
+            "years": "2022-н.в.",
+            "bodyTypes": ["Кроссовер"],
+            "trims": [
+              {
+                "name": "2.0T AWD",
+                "engine": { "type": "R4", "volume": 2.0, "code": "JLH-4G20TDB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+                "transmission": { "type": "АКПП", "gears": 8, "name": "Aisin 8AT" },
+                "driveType": "Полный", "fuelType": "Бензин", "powerHp": 238, "acceleration": 7.7
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },  {
+  "name": "Peugeot",
+  "models": [
+    {
+      "name": "107",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2005-2014",
+          "bodyTypes": ["Хэтчбек"],
+          "trims": [
+            {
+              "name": "1.0 MT",
+              "engine": { "type": "R3", "volume": 1.0, "code": "1KR-FE", "turbo": false, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 68, "acceleration": 13.7
+            },
+            {
+              "name": "1.0 AMT",
+              "engine": { "type": "R3", "volume": 1.0, "code": "1KR-FE", "turbo": false, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 5, "name": "2-Tronic" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 68, "acceleration": 14.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "108",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2014-2021",
+          "bodyTypes": ["Хэтчбек"],
+          "trims": [
+            {
+              "name": "1.0 VTi",
+              "engine": { "type": "R3", "volume": 1.0, "code": "EB2F", "turbo": false, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 72, "acceleration": 13.2
+            },
+            {
+              "name": "1.2 PureTech",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2DT", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 82, "acceleration": 10.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "206",
+      "generations": [
+        {
+          "name": "I",
+          "years": "1998-2012",
+          "bodyTypes": ["Хэтчбек", "Седан", "Универсал", "Купе-кабриолет"],
+          "trims": [
+            {
+              "name": "1.4 MT",
+              "engine": { "type": "R4", "volume": 1.4, "code": "TU3JP", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 75, "acceleration": 13.1
+            },
+            {
+              "name": "1.6 MT",
+              "engine": { "type": "R4", "volume": 1.6, "code": "TU5JP", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 109, "acceleration": 9.8
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10TD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 90, "acceleration": 11.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "207",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2006-2014",
+          "bodyTypes": ["Хэтчбек", "Универсал", "Купе-кабриолет"],
+          "trims": [
+            {
+              "name": "1.4 VTi",
+              "engine": { "type": "R4", "volume": 1.4, "code": "EP3", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 95, "acceleration": 11.5
+            },
+            {
+              "name": "1.6 THP",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6DT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 4, "name": "AL4" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.1
+            },
+            {
+              "name": "1.6 HDi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "DV6TED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 109, "acceleration": 9.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "208",
+      "generations": [
+        {
+          "name": "I (A9)",
+          "years": "2012-2019",
+          "bodyTypes": ["Хэтчбек"],
+          "trims": [
+            {
+              "name": "1.2 VTi",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2", "turbo": false, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 82, "acceleration": 12.2
+            },
+            {
+              "name": "1.6 e-HDi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "DV6D", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "ETG6" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 115, "acceleration": 9.4
+            }
+          ]
+        },
+        {
+          "name": "II (P21)",
+          "years": "2019-н.в.",
+          "bodyTypes": ["Хэтчбек"],
+          "trims": [
+            {
+              "name": "1.2 PureTech 100",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2ADTD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 100, "acceleration": 9.9
+            },
+            {
+              "name": "1.2 PureTech 130 EAT8",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2ADTS", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 8.7
+            },
+            {
+              "name": "1.5 BlueHDi 130",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DV5RC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 8.7
+            },
+            {
+              "name": "e-208",
+              "engine": { "type": "Электро", "volume": 0.0, "code": "EM-AC", "turbo": false, "cylinders": 0, "valvesPerCylinder": 0 },
+              "transmission": { "type": "Редуктор", "gears": 1 },
+              "driveType": "Передний", "fuelType": "Электро", "powerHp": 136, "acceleration": 8.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "301",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2012-н.в.",
+          "bodyTypes": ["Седан"],
+          "trims": [
+            {
+              "name": "1.6 VTi MT",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EC5", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 10.3
+            },
+            {
+              "name": "1.6 VTi AT",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EC5", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin AT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 11.2
+            },
+            {
+              "name": "1.6 HDi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "DV6C", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 92, "acceleration": 11.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "307",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2001-2008",
+          "bodyTypes": ["Хэтчбек", "Универсал", "Купе-кабриолет"],
+          "trims": [
+            {
+              "name": "1.6 MT",
+              "engine": { "type": "R4", "volume": 1.6, "code": "TU5JP4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 109, "acceleration": 10.7
+            },
+            {
+              "name": "2.0 MT",
+              "engine": { "type": "R4", "volume": 2.0, "code": "EW10J4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 140, "acceleration": 9.1
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10TD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 90, "acceleration": 12.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "308",
+      "generations": [
+        {
+          "name": "I (T7)",
+          "years": "2007-2013",
+          "bodyTypes": ["Хэтчбек", "Универсал", "Купе-кабриолет"],
+          "trims": [
+            {
+              "name": "1.6 VTi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 120, "acceleration": 10.0
+            },
+            {
+              "name": "1.6 THP",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6DT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin AT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.5
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10BTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.3
+            }
+          ]
+        },
+        {
+          "name": "II (T9)",
+          "years": "2013-2021",
+          "bodyTypes": ["Хэтчбек", "Универсал"],
+          "trims": [
+            {
+              "name": "1.2 PureTech",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2DTS", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 9.1
+            },
+            {
+              "name": "1.6 THP",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6FDT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.2
+            },
+            {
+              "name": "1.6 e-HDi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "DV6D", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "ETG6" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 115, "acceleration": 10.2
+            },
+            {
+              "name": "2.0 BlueHDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10FC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 8.6
+            }
+          ]
+        },
+        {
+          "name": "III",
+          "years": "2021-н.в.",
+          "bodyTypes": ["Хэтчбек", "Универсал"],
+          "trims": [
+            {
+              "name": "1.2 PureTech 130",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2ADTD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 9.6
+            },
+            {
+              "name": "1.5 BlueHDi 130",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DV5RC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 9.5
+            },
+            {
+              "name": "1.6 Plug-in Hybrid 180",
+              "engine": { "type": "R4 + Электро", "volume": 1.6, "code": "EP6FADTXd", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "e-EAT8" },
+              "driveType": "Передний", "fuelType": "Гибрид", "powerHp": 180, "acceleration": 7.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "406",
+      "generations": [
+        {
+          "name": "I",
+          "years": "1995-2004",
+          "bodyTypes": ["Седан", "Универсал", "Купе"],
+          "trims": [
+            {
+              "name": "1.8 MT",
+              "engine": { "type": "R4", "volume": 1.8, "code": "XU7JB", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 90, "acceleration": 13.2
+            },
+            {
+              "name": "2.0 MT",
+              "engine": { "type": "R4", "volume": 2.0, "code": "EW10J4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 135, "acceleration": 9.6
+            },
+            {
+              "name": "2.2 MT",
+              "engine": { "type": "R4", "volume": 2.2, "code": "EW12J4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 158, "acceleration": 8.9
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10TD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 90, "acceleration": 12.3
+            },
+            {
+              "name": "2.2 HDi",
+              "engine": { "type": "R4", "volume": 2.2, "code": "DW12TED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 133, "acceleration": 9.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "407",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2004-2011",
+          "bodyTypes": ["Седан", "Универсал", "Купе"],
+          "trims": [
+            {
+              "name": "1.8 MT",
+              "engine": { "type": "R4", "volume": 1.8, "code": "EW7J4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 11.2
+            },
+            {
+              "name": "2.0 MT",
+              "engine": { "type": "R4", "volume": 2.0, "code": "EW10J4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 140, "acceleration": 9.8
+            },
+            {
+              "name": "3.0 V6 AT",
+              "engine": { "type": "V6", "volume": 3.0, "code": "ES9J4S", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 211, "acceleration": 8.4
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10BTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 136, "acceleration": 9.7
+            },
+            {
+              "name": "2.7 HDi V6",
+              "engine": { "type": "V6", "volume": 2.7, "code": "DT17TED4", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 204, "acceleration": 8.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "508",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2011-2018",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.6 THP",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6CDT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 156, "acceleration": 8.9
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10BTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.2
+            },
+            {
+              "name": "2.2 HDi",
+              "engine": { "type": "R4", "volume": 2.2, "code": "DW12C", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 204, "acceleration": 8.2
+            }
+          ]
+        },
+        {
+          "name": "II",
+          "years": "2018-н.в.",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.6 PureTech 180",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6FADTXd", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 180, "acceleration": 7.9
+            },
+            {
+              "name": "1.5 BlueHDi 130",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DV5RC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 9.7
+            },
+            {
+              "name": "2.0 BlueHDi 180",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10FC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 180, "acceleration": 8.3
+            },
+            {
+              "name": "Hybrid 225",
+              "engine": { "type": "R4 + Электро", "volume": 1.6, "code": "EP6FADTXd", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "e-EAT8" },
+              "driveType": "Передний", "fuelType": "Гибрид", "powerHp": 225, "acceleration": 7.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "607",
+      "generations": [
+        {
+          "name": "I",
+          "years": "1999-2010",
+          "bodyTypes": ["Седан"],
+          "trims": [
+            {
+              "name": "2.2 MT",
+              "engine": { "type": "R4", "volume": 2.2, "code": "EW12J4", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 158, "acceleration": 9.9
+            },
+            {
+              "name": "3.0 V6 AT",
+              "engine": { "type": "V6", "volume": 3.0, "code": "ES9J4S", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 211, "acceleration": 8.8
+            },
+            {
+              "name": "2.2 HDi",
+              "engine": { "type": "R4", "volume": 2.2, "code": "DW12TED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 170, "acceleration": 9.3
+            },
+            {
+              "name": "2.7 HDi V6",
+              "engine": { "type": "V6", "volume": 2.7, "code": "DT17TED4", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "ZF 6HP" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 204, "acceleration": 8.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2008",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2013-2019",
+          "bodyTypes": ["Кроссовер"],
+          "trims": [
+            {
+              "name": "1.2 VTi",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2", "turbo": false, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 82, "acceleration": 13.5
+            },
+            {
+              "name": "1.2 e-THP",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2DTS", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 9.3
+            },
+            {
+              "name": "1.6 e-HDi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "DV6D", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "ETG6" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 115, "acceleration": 10.4
+            }
+          ]
+        },
+        {
+          "name": "II",
+          "years": "2019-н.в.",
+          "bodyTypes": ["Кроссовер"],
+          "trims": [
+            {
+              "name": "1.2 PureTech 130",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2ADTD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 9.1
+            },
+            {
+              "name": "1.5 BlueHDi 130",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DV5RC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 9.5
+            },
+            {
+              "name": "e-2008",
+              "engine": { "type": "Электро", "volume": 0.0, "code": "EM-AC", "turbo": false, "cylinders": 0, "valvesPerCylinder": 0 },
+              "transmission": { "type": "Редуктор", "gears": 1 },
+              "driveType": "Передний", "fuelType": "Электро", "powerHp": 136, "acceleration": 9.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3008",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2009-2016",
+          "bodyTypes": ["Кроссовер"],
+          "trims": [
+            {
+              "name": "1.6 THP",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6DT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 156, "acceleration": 8.9
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10BTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 163, "acceleration": 8.6
+            },
+            {
+              "name": "Hybrid4",
+              "engine": { "type": "R4 + Электро", "volume": 2.0, "code": "DW10C", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "ETG6" },
+              "driveType": "Полный", "fuelType": "Гибрид", "powerHp": 200, "acceleration": 8.5
+            }
+          ]
+        },
+        {
+          "name": "II",
+          "years": "2016-2023",
+          "bodyTypes": ["Кроссовер"],
+          "trims": [
+            {
+              "name": "1.2 PureTech 130",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2DTS", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 9.6
+            },
+            {
+              "name": "1.6 THP 150",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6FDT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.9
+            },
+            {
+              "name": "2.0 BlueHDi 180",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10FC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 180, "acceleration": 8.3
+            },
+            {
+              "name": "Hybrid4 300",
+              "engine": { "type": "R4 + Электро", "volume": 1.6, "code": "EP6FADTXd", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "e-EAT8" },
+              "driveType": "Полный", "fuelType": "Гибрид", "powerHp": 300, "acceleration": 5.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5008",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2009-2016",
+          "bodyTypes": ["Минивэн"],
+          "trims": [
+            {
+              "name": "1.6 THP",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6DT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "EAT6" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 156, "acceleration": 9.2
+            },
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10BTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 163, "acceleration": 8.9
+            }
+          ]
+        },
+        {
+          "name": "II",
+          "years": "2017-н.в.",
+          "bodyTypes": ["Кроссовер"],
+          "trims": [
+            {
+              "name": "1.2 PureTech 130",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2DTS", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 130, "acceleration": 9.7
+            },
+            {
+              "name": "1.6 PureTech 180",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6FADTXd", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 180, "acceleration": 8.3
+            },
+            {
+              "name": "2.0 BlueHDi 180",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10FC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 180, "acceleration": 8.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Partner / Rifter",
+      "generations": [
+        {
+          "name": "II (B9)",
+          "years": "2008-2018",
+          "bodyTypes": ["Фургон", "Минивэн"],
+          "trims": [
+            {
+              "name": "1.6 VTi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "EP6", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 98, "acceleration": 13.4
+            },
+            {
+              "name": "1.6 HDi",
+              "engine": { "type": "R4", "volume": 1.6, "code": "DV6TED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 109, "acceleration": 12.1
+            }
+          ]
+        },
+        {
+          "name": "III / Rifter",
+          "years": "2018-н.в.",
+          "bodyTypes": ["Фургон", "Минивэн"],
+          "trims": [
+            {
+              "name": "1.2 PureTech 110",
+              "engine": { "type": "R3", "volume": 1.2, "code": "EB2ADTD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 11.0
+            },
+            {
+              "name": "1.5 BlueHDi 100",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DV5RD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 100, "acceleration": 11.4
+            },
+            {
+              "name": "1.5 BlueHDi 130 EAT8",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DV5RC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 9.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert / Traveller",
+      "generations": [
+        {
+          "name": "II",
+          "years": "2007-2016",
+          "bodyTypes": ["Фургон", "Микроавтобус"],
+          "trims": [
+            {
+              "name": "2.0 HDi",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10BTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 136, "acceleration": 11.5
+            },
+            {
+              "name": "2.0 HDi 163",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10CTED4", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin TF-80SC" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 163, "acceleration": 10.2
+            }
+          ]
+        },
+        {
+          "name": "III / Traveller",
+          "years": "2016-н.в.",
+          "bodyTypes": ["Фургон", "Микроавтобус"],
+          "trims": [
+            {
+              "name": "2.0 BlueHDi 150",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10FD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 10.4
+            },
+            {
+              "name": "2.0 BlueHDi 180 EAT8",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DW10FC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "EAT8" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 177, "acceleration": 9.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boxer",
+      "generations": [
+        {
+          "name": "II",
+          "years": "2006-н.в.",
+          "bodyTypes": ["Фургон", "Шасси", "Микроавтобус"],
+          "trims": [
+            {
+              "name": "2.2 HDi 130",
+              "engine": { "type": "R4", "volume": 2.2, "code": "P22DTE", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 0.0
+            },
+            {
+              "name": "2.2 HDi 150",
+              "engine": { "type": "R4", "volume": 2.2, "code": "P22DTE", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 0.0
+            },
+            {
+              "name": "3.0 HDi 180",
+              "engine": { "type": "R4", "volume": 3.0, "code": "F30DT", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "AS Tronic" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 177, "acceleration": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},  {
+  "name": "Audi",
+  "models": [
+    {
+      "name": "100 / A6",
+      "generations": [
+        {
+          "name": "C4 (100/A6)",
+          "years": "1990-1997",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "2.0E",
+              "engine": { "type": "R5", "volume": 2.0, "code": "AAE", "turbo": false, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 11.3
+            },
+            {
+              "name": "2.6E V6",
+              "engine": { "type": "V6", "volume": 2.6, "code": "ABC", "turbo": false, "cylinders": 6, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 4, "name": "ZF 4HP18" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 150, "acceleration": 9.9
+            },
+            {
+              "name": "2.8E V6",
+              "engine": { "type": "V6", "volume": 2.8, "code": "AAH", "turbo": false, "cylinders": 6, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 4, "name": "ZF 4HP18" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 174, "acceleration": 8.8
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "R5", "volume": 2.5, "code": "AAT", "turbo": true, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 115, "acceleration": 12.0
+            },
+            {
+              "name": "S4 (C4)",
+              "engine": { "type": "R5", "volume": 2.2, "code": "ADU", "turbo": true, "cylinders": 5, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 230, "acceleration": 6.2
+            }
+          ]
+        },
+        {
+          "name": "C5 (A6)",
+          "years": "1997-2004",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AEB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 9.0
+            },
+            {
+              "name": "2.4 V6",
+              "engine": { "type": "V6", "volume": 2.4, "code": "AGA", "turbo": false, "cylinders": 6, "valvesPerCylinder": 5 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 170, "acceleration": 9.2
+            },
+            {
+              "name": "2.7T",
+              "engine": { "type": "V6", "volume": 2.7, "code": "ARE", "turbo": true, "cylinders": 6, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 230, "acceleration": 7.1
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "V6", "volume": 2.5, "code": "AKE", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 180, "acceleration": 8.9
+            },
+            {
+              "name": "RS6 (C5)",
+              "engine": { "type": "V8", "volume": 4.2, "code": "BCY", "turbo": true, "cylinders": 8, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP24" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 450, "acceleration": 4.9
+            }
+          ]
+        },
+        {
+          "name": "C6 (A6)",
+          "years": "2004-2011",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BGB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 170, "acceleration": 8.4
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "ASB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic ZF 6HP19" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 233, "acceleration": 6.9
+            },
+            {
+              "name": "3.2 FSI",
+              "engine": { "type": "V6", "volume": 3.2, "code": "AUK", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 255, "acceleration": 6.9
+            },
+            {
+              "name": "4.2 FSI",
+              "engine": { "type": "V8", "volume": 4.2, "code": "BVJ", "turbo": false, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic ZF 6HP26" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 350, "acceleration": 5.9
+            },
+            {
+              "name": "RS6 (C6)",
+              "engine": { "type": "V10", "volume": 5.0, "code": "BUH", "turbo": true, "cylinders": 10, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic ZF 6HP32" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 580, "acceleration": 4.5
+            }
+          ]
+        },
+        {
+          "name": "C7 (A6)",
+          "years": "2011-2018",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CDNB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 180, "acceleration": 8.1
+            },
+            {
+              "name": "3.0 TFSI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CGWB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 300, "acceleration": 5.5
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CDUD", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 245, "acceleration": 6.1
+            },
+            {
+              "name": "RS6 Avant (C7)",
+              "engine": { "type": "V8", "volume": 4.0, "code": "CWUC", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP90" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 560, "acceleration": 3.9
+            }
+          ]
+        },
+        {
+          "name": "C8 (A6)",
+          "years": "2018-н.в.",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "40 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DKYA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 204, "acceleration": 7.3
+            },
+            {
+              "name": "45 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DLBA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 245, "acceleration": 6.0
+            },
+            {
+              "name": "50 TDI quattro",
+              "engine": { "type": "V6", "volume": 3.0, "code": "DDVB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP65" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 286, "acceleration": 5.4
+            },
+            {
+              "name": "RS6 Avant (C8)",
+              "engine": { "type": "V8", "volume": 4.0, "code": "EA825", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP90" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 600, "acceleration": 3.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A3",
+      "generations": [
+        {
+          "name": "8L",
+          "years": "1996-2003",
+          "bodyTypes": ["Хэтчбек"],
+          "trims": [
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AGU", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic AW50-40LE" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.2
+            },
+            {
+              "name": "1.9 TDI",
+              "engine": { "type": "R4", "volume": 1.9, "code": "AHF", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 110, "acceleration": 10.5
+            },
+            {
+              "name": "S3 (8L)",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AMK", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 210, "acceleration": 6.8
+            }
+          ]
+        },
+        {
+          "name": "8P",
+          "years": "2003-2012",
+          "bodyTypes": ["Хэтчбек", "Sportback", "Кабриолет"],
+          "trims": [
+            {
+              "name": "1.6 FSI",
+              "engine": { "type": "R4", "volume": 1.6, "code": "BLF", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 10.9
+            },
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "AXX", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 200, "acceleration": 6.8
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BKD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.2
+            },
+            {
+              "name": "RS3 Sportback (8P)",
+              "engine": { "type": "R5", "volume": 2.5, "code": "CEPA", "turbo": true, "cylinders": 5, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 340, "acceleration": 4.6
+            }
+          ]
+        },
+        {
+          "name": "8V",
+          "years": "2012-2020",
+          "bodyTypes": ["Хэтчбек", "Sportback", "Седан", "Кабриолет"],
+          "trims": [
+            {
+              "name": "1.4 TFSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CXSA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 125, "acceleration": 9.3
+            },
+            {
+              "name": "2.0 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CHHB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 220, "acceleration": 5.8
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CRBC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 8.6
+            },
+            {
+              "name": "RS3 Sportback (8V)",
+              "engine": { "type": "R5", "volume": 2.5, "code": "DAZA", "turbo": true, "cylinders": 5, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 400, "acceleration": 4.1
+            }
+          ]
+        },
+        {
+          "name": "8Y",
+          "years": "2020-н.в.",
+          "bodyTypes": ["Хэтчбек", "Sportback", "Седан"],
+          "trims": [
+            {
+              "name": "30 TFSI",
+              "engine": { "type": "R3", "volume": 1.0, "code": "DLA", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 10.6
+            },
+            {
+              "name": "35 TFSI",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DADA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.0
+            },
+            {
+              "name": "40 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DLBA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ381" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 204, "acceleration": 6.2
+            },
+            {
+              "name": "RS3 Sportback (8Y)",
+              "engine": { "type": "R5", "volume": 2.5, "code": "DNWA", "turbo": true, "cylinders": 5, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 400, "acceleration": 3.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A4",
+      "generations": [
+        {
+          "name": "B5",
+          "years": "1994-2001",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AEB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.6
+            },
+            {
+              "name": "2.4 V6",
+              "engine": { "type": "V6", "volume": 2.4, "code": "AGA", "turbo": false, "cylinders": 6, "valvesPerCylinder": 5 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 165, "acceleration": 9.0
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "V6", "volume": 2.5, "code": "AFB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 150, "acceleration": 9.6
+            },
+            {
+              "name": "S4 (B5)",
+              "engine": { "type": "V6", "volume": 2.7, "code": "AZB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 5 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 265, "acceleration": 5.6
+            }
+          ]
+        },
+        {
+          "name": "B6",
+          "years": "2000-2005",
+          "bodyTypes": ["Седан", "Универсал", "Кабриолет"],
+          "trims": [
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AVJ", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.9
+            },
+            {
+              "name": "3.0 V6",
+              "engine": { "type": "V6", "volume": 3.0, "code": "ASN", "turbo": false, "cylinders": 6, "valvesPerCylinder": 5 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 220, "acceleration": 7.5
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "V6", "volume": 2.5, "code": "AKE", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 180, "acceleration": 8.9
+            },
+            {
+              "name": "S4 (B6)",
+              "engine": { "type": "V8", "volume": 4.2, "code": "BBK", "turbo": false, "cylinders": 8, "valvesPerCylinder": 5 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 344, "acceleration": 5.1
+            }
+          ]
+        },
+        {
+          "name": "B7",
+          "years": "2004-2008",
+          "bodyTypes": ["Седан", "Универсал", "Кабриолет"],
+          "trims": [
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BGB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 200, "acceleration": 7.3
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "ASB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic ZF 6HP19" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 233, "acceleration": 6.8
+            },
+            {
+              "name": "RS4 (B7)",
+              "engine": { "type": "V8", "volume": 4.2, "code": "BNS", "turbo": false, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 420, "acceleration": 4.8
+            }
+          ]
+        },
+        {
+          "name": "B8/B8.5",
+          "years": "2007-2016",
+          "bodyTypes": ["Седан", "Универсал", "Allroad"],
+          "trims": [
+            {
+              "name": "1.8 TFSI",
+              "engine": { "type": "R4", "volume": 1.8, "code": "CDAB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 160, "acceleration": 8.6
+            },
+            {
+              "name": "2.0 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CAEB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 211, "acceleration": 6.6
+            },
+            {
+              "name": "3.0 TDI quattro",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CCWA", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 240, "acceleration": 6.1
+            },
+            {
+              "name": "S4 (B8)",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CCBA", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 333, "acceleration": 5.1
+            }
+          ]
+        },
+        {
+          "name": "B9",
+          "years": "2015-2024",
+          "bodyTypes": ["Седан", "Универсал", "Allroad"],
+          "trims": [
+            {
+              "name": "35 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CVNA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.9
+            },
+            {
+              "name": "45 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CYRB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 249, "acceleration": 5.8
+            },
+            {
+              "name": "40 TDI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DETA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 190, "acceleration": 7.2
+            },
+            {
+              "name": "S4 (B9)",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CWGD", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP55" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 354, "acceleration": 4.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q5",
+      "generations": [
+        {
+          "name": "8R",
+          "years": "2008-2017",
+          "bodyTypes": ["Внедорожник"],
+          "trims": [
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CAEB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 211, "acceleration": 7.2
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CCWA", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL501" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 240, "acceleration": 6.5
+            },
+            {
+              "name": "SQ5",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CGQB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP55" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 354, "acceleration": 5.3
+            }
+          ]
+        },
+        {
+          "name": "FY",
+          "years": "2017-н.в.",
+          "bodyTypes": ["Внедорожник", "Sportback"],
+          "trims": [
+            {
+              "name": "40 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DKYA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 204, "acceleration": 6.3
+            },
+            {
+              "name": "45 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DLBA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DL382" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 249, "acceleration": 6.1
+            },
+            {
+              "name": "50 TDI quattro",
+              "engine": { "type": "V6", "volume": 3.0, "code": "DCPC", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP65" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 286, "acceleration": 5.7
+            },
+            {
+              "name": "SQ5",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CWGD", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP65" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 354, "acceleration": 5.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TT",
+      "generations": [
+        {
+          "name": "8N",
+          "years": "1998-2006",
+          "bodyTypes": ["Купе", "Родстер"],
+          "trims": [
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "APX", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 180, "acceleration": 7.4
+            },
+            {
+              "name": "1.8T quattro",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AUQ", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 225, "acceleration": 6.4
+            },
+            {
+              "name": "3.2 VR6 quattro",
+              "engine": { "type": "VR6", "volume": 3.2, "code": "BHE", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 250, "acceleration": 6.2
+            }
+          ]
+        },
+        {
+          "name": "8J",
+          "years": "2006-2014",
+          "bodyTypes": ["Купе", "Родстер"],
+          "trims": [
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BWA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 200, "acceleration": 6.4
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CBBB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 170, "acceleration": 7.5
+            },
+            {
+              "name": "TTS",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CDLA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 272, "acceleration": 5.2
+            },
+            {
+              "name": "TT RS",
+              "engine": { "type": "R5", "volume": 2.5, "code": "CEPA", "turbo": true, "cylinders": 5, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 340, "acceleration": 4.5
+            }
+          ]
+        },
+        {
+          "name": "8S",
+          "years": "2014-2023",
+          "bodyTypes": ["Купе", "Родстер"],
+          "trims": [
+            {
+              "name": "40 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CHHC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 197, "acceleration": 6.7
+            },
+            {
+              "name": "45 TFSI quattro",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CHHA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 230, "acceleration": 5.3
+            },
+            {
+              "name": "TTS",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CJXC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "S-tronic DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 310, "acceleration": 4.7
+            },
+            {
+              "name": "TT RS",
+              "engine": { "type": "R5", "volume": 2.5, "code": "DAZA", "turbo": true, "cylinders": 5, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "S-tronic DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 400, "acceleration": 3.7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},  {
+  "name": "Volkswagen",
+  "models": [
+    {
+      "name": "Golf",
+      "generations": [
+        {
+          "name": "Mk3 (1H)",
+          "years": "1991-1997",
+          "bodyTypes": ["Хэтчбек", "Универсал", "Кабриолет"],
+          "trims": [
+            {
+              "name": "1.8 MT",
+              "engine": { "type": "R4", "volume": 1.8, "code": "ABS", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 90, "acceleration": 12.1
+            },
+            {
+              "name": "2.0 GTI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "ABF", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.7
+            },
+            {
+              "name": "2.8 VR6",
+              "engine": { "type": "VR6", "volume": 2.8, "code": "AAA", "turbo": false, "cylinders": 6, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 174, "acceleration": 7.6
+            },
+            {
+              "name": "1.9 TDI",
+              "engine": { "type": "R4", "volume": 1.9, "code": "AFN", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 110, "acceleration": 10.5
+            }
+          ]
+        },
+        {
+          "name": "Mk4 (1J)",
+          "years": "1997-2004",
+          "bodyTypes": ["Хэтчбек", "Универсал"],
+          "trims": [
+            {
+              "name": "1.6 MT",
+              "engine": { "type": "R4", "volume": 1.6, "code": "AKL", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 101, "acceleration": 11.7
+            },
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AGU", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic AW50-40LE" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.6
+            },
+            {
+              "name": "2.3 VR5",
+              "engine": { "type": "VR5", "volume": 2.3, "code": "AGZ", "turbo": false, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic AW50-40LE" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 9.2
+            },
+            {
+              "name": "1.9 TDI PD",
+              "engine": { "type": "R4", "volume": 1.9, "code": "ASZ", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 130, "acceleration": 9.6
+            },
+            {
+              "name": "R32",
+              "engine": { "type": "VR6", "volume": 3.2, "code": "BHE", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 241, "acceleration": 6.6
+            }
+          ]
+        },
+        {
+          "name": "Mk5 (1K)",
+          "years": "2003-2009",
+          "bodyTypes": ["Хэтчбек", "Универсал"],
+          "trims": [
+            {
+              "name": "1.6 FSI",
+              "engine": { "type": "R4", "volume": 1.6, "code": "BLF", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 10.9
+            },
+            {
+              "name": "2.0 TFSI GTI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "AXX", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 200, "acceleration": 6.9
+            },
+            {
+              "name": "2.0 TDI PD",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BKD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.3
+            },
+            {
+              "name": "R32",
+              "engine": { "type": "VR6", "volume": 3.2, "code": "BUB", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 250, "acceleration": 6.2
+            }
+          ]
+        },
+        {
+          "name": "Mk6 (5K)",
+          "years": "2008-2013",
+          "bodyTypes": ["Хэтчбек", "Универсал", "Кабриолет"],
+          "trims": [
+            {
+              "name": "1.4 TSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CAXA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 122, "acceleration": 9.5
+            },
+            {
+              "name": "2.0 TSI GTI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CCZB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 210, "acceleration": 6.9
+            },
+            {
+              "name": "2.0 TDI CR",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CBAB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.3
+            },
+            {
+              "name": "R",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CDLA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 270, "acceleration": 5.5
+            }
+          ]
+        },
+        {
+          "name": "Mk7 (5G)",
+          "years": "2012-2020",
+          "bodyTypes": ["Хэтчбек", "Универсал", "Sportsvan"],
+          "trims": [
+            {
+              "name": "1.4 TSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.2
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CRBC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 8.6
+            },
+            {
+              "name": "GTI Performance",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CHHB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 230, "acceleration": 6.4
+            },
+            {
+              "name": "R",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CJXC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 300, "acceleration": 5.1
+            },
+            {
+              "name": "e-Golf",
+              "engine": { "type": "Электро", "volume": 0.0, "code": "EEM", "turbo": false, "cylinders": 0, "valvesPerCylinder": 0 },
+              "transmission": { "type": "Редуктор", "gears": 1 },
+              "driveType": "Передний", "fuelType": "Электро", "powerHp": 136, "acceleration": 9.6
+            }
+          ]
+        },
+        {
+          "name": "Mk8 (CD)",
+          "years": "2019-н.в.",
+          "bodyTypes": ["Хэтчбек", "Универсал"],
+          "trims": [
+            {
+              "name": "1.5 eTSI",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DADA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.5
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DTTC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ381" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 8.4
+            },
+            {
+              "name": "GTI Clubsport",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DLBA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ381" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 300, "acceleration": 5.6
+            },
+            {
+              "name": "R",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DNFG", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ381" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 320, "acceleration": 4.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polo",
+      "generations": [
+        {
+          "name": "III (6N/6KV)",
+          "years": "1994-2002",
+          "bodyTypes": ["Хэтчбек", "Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.4 MT",
+              "engine": { "type": "R4", "volume": 1.4, "code": "AHW", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 75, "acceleration": 12.8
+            },
+            {
+              "name": "1.6 MT",
+              "engine": { "type": "R4", "volume": 1.6, "code": "AEH", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 101, "acceleration": 10.5
+            },
+            {
+              "name": "1.9 SDI",
+              "engine": { "type": "R4", "volume": 1.9, "code": "AGD", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 64, "acceleration": 17.5
+            }
+          ]
+        },
+        {
+          "name": "IV (9N)",
+          "years": "2001-2009",
+          "bodyTypes": ["Хэтчбек"],
+          "trims": [
+            {
+              "name": "1.4 MT",
+              "engine": { "type": "R4", "volume": 1.4, "code": "BBY", "turbo": false, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 75, "acceleration": 13.2
+            },
+            {
+              "name": "1.9 TDI",
+              "engine": { "type": "R4", "volume": 1.9, "code": "ATD", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 101, "acceleration": 10.7
+            },
+            {
+              "name": "GTI",
+              "engine": { "type": "R4", "volume": 1.8, "code": "BBU", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.0
+            }
+          ]
+        },
+        {
+          "name": "V (6R/6C)",
+          "years": "2009-2017",
+          "bodyTypes": ["Хэтчбек", "Седан"],
+          "trims": [
+            {
+              "name": "1.2 TSI",
+              "engine": { "type": "R4", "volume": 1.2, "code": "CBZA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 105, "acceleration": 9.7
+            },
+            {
+              "name": "1.4 TSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CAVE", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 180, "acceleration": 6.9
+            },
+            {
+              "name": "1.6 TDI",
+              "engine": { "type": "R4", "volume": 1.6, "code": "CAYC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 105, "acceleration": 10.5
+            }
+          ]
+        },
+        {
+          "name": "VI (AW/BZ)",
+          "years": "2017-н.в.",
+          "bodyTypes": ["Хэтчбек", "Седан"],
+          "trims": [
+            {
+              "name": "1.0 MPI",
+              "engine": { "type": "R3", "volume": 1.0, "code": "CHYA", "turbo": false, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 75, "acceleration": 14.9
+            },
+            {
+              "name": "1.0 TSI",
+              "engine": { "type": "R3", "volume": 1.0, "code": "DKLD", "turbo": true, "cylinders": 3, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 10.5
+            },
+            {
+              "name": "1.5 TSI",
+              "engine": { "type": "R4", "volume": 1.5, "code": "DADA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.2
+            },
+            {
+              "name": "GTI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CZPC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 200, "acceleration": 6.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Passat",
+      "generations": [
+        {
+          "name": "B4 (3A)",
+          "years": "1993-1997",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.8 MT",
+              "engine": { "type": "R4", "volume": 1.8, "code": "ADR", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 90, "acceleration": 13.4
+            },
+            {
+              "name": "2.0 MT",
+              "engine": { "type": "R4", "volume": 2.0, "code": "ABK", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 11.3
+            },
+            {
+              "name": "2.8 VR6",
+              "engine": { "type": "VR6", "volume": 2.8, "code": "AAA", "turbo": false, "cylinders": 6, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 4, "name": "ZF 4HP18" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 174, "acceleration": 8.3
+            },
+            {
+              "name": "1.9 TDI",
+              "engine": { "type": "R4", "volume": 1.9, "code": "AFN", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 110, "acceleration": 11.2
+            }
+          ]
+        },
+        {
+          "name": "B5/B5.5 (3B/3BG)",
+          "years": "1996-2005",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.8T",
+              "engine": { "type": "R4", "volume": 1.8, "code": "AEB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 5 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.6
+            },
+            {
+              "name": "2.4 V6",
+              "engine": { "type": "V6", "volume": 2.4, "code": "AGA", "turbo": false, "cylinders": 6, "valvesPerCylinder": 5 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 165, "acceleration": 9.5
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "V6", "volume": 2.5, "code": "AFB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP19" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 150, "acceleration": 9.6
+            },
+            {
+              "name": "W8",
+              "engine": { "type": "W8", "volume": 4.0, "code": "BDN", "turbo": false, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 5, "name": "Tiptronic ZF 5HP24" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 275, "acceleration": 6.8
+            }
+          ]
+        },
+        {
+          "name": "B6 (3C)",
+          "years": "2005-2010",
+          "bodyTypes": ["Седан", "Универсал"],
+          "trims": [
+            {
+              "name": "1.8 TSI",
+              "engine": { "type": "R4", "volume": 1.8, "code": "BZB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 160, "acceleration": 8.6
+            },
+            {
+              "name": "2.0 TFSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BWA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 200, "acceleration": 7.6
+            },
+            {
+              "name": "2.0 TDI PD",
+              "engine": { "type": "R4", "volume": 2.0, "code": "BKP", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.4
+            },
+            {
+              "name": "3.6 FSI 4Motion",
+              "engine": { "type": "VR6", "volume": 3.6, "code": "BWS", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 300, "acceleration": 6.4
+            }
+          ]
+        },
+        {
+          "name": "B7 (362/365)",
+          "years": "2010-2015",
+          "bodyTypes": ["Седан", "Универсал", "Alltrack"],
+          "trims": [
+            {
+              "name": "1.8 TSI",
+              "engine": { "type": "R4", "volume": 1.8, "code": "CDAB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Вариатор", "gears": 0, "name": "Multitronic VLJ" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 160, "acceleration": 8.5
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CFGB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.3
+            },
+            {
+              "name": "2.0 TSI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CCZB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 210, "acceleration": 7.4
+            }
+          ]
+        },
+        {
+          "name": "B8 (3G)",
+          "years": "2014-2023",
+          "bodyTypes": ["Седан", "Универсал", "Alltrack"],
+          "trims": [
+            {
+              "name": "1.4 TSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ200" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 8.4
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DDFE", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 8.7
+            },
+            {
+              "name": "2.0 BiTDI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DFGC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 240, "acceleration": 6.3
+            },
+            {
+              "name": "GTE",
+              "engine": { "type": "R4 + Электро", "volume": 1.4, "code": "CUKB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Передний", "fuelType": "Гибрид", "powerHp": 218, "acceleration": 7.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tiguan",
+      "generations": [
+        {
+          "name": "I (5N)",
+          "years": "2007-2016",
+          "bodyTypes": ["Внедорожник"],
+          "trims": [
+            {
+              "name": "1.4 TSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CAXA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 122, "acceleration": 10.9
+            },
+            {
+              "name": "2.0 TSI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CCZC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 180, "acceleration": 8.0
+            },
+            {
+              "name": "2.0 TDI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CBAB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 140, "acceleration": 9.9
+            }
+          ]
+        },
+        {
+          "name": "II (AD/BW)",
+          "years": "2016-н.в.",
+          "bodyTypes": ["Внедорожник"],
+          "trims": [
+            {
+              "name": "1.4 TSI",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Aisin AQ250" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 125, "acceleration": 10.5
+            },
+            {
+              "name": "1.4 TSI 4Motion",
+              "engine": { "type": "R4", "volume": 1.4, "code": "CZDA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 6, "name": "DSG DQ250" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 150, "acceleration": 9.3
+            },
+            {
+              "name": "2.0 TDI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DFGC", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 150, "acceleration": 9.3
+            },
+            {
+              "name": "2.0 TSI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CHHB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 220, "acceleration": 6.5
+            },
+            {
+              "name": "2.0 BiTDI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "DFGL", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 240, "acceleration": 6.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Touareg",
+      "generations": [
+        {
+          "name": "I (7L)",
+          "years": "2002-2010",
+          "bodyTypes": ["Внедорожник"],
+          "trims": [
+            {
+              "name": "3.2 V6",
+              "engine": { "type": "VR6", "volume": 3.2, "code": "AXK", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TR-60SN" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 241, "acceleration": 8.1
+            },
+            {
+              "name": "4.2 V8",
+              "engine": { "type": "V8", "volume": 4.2, "code": "AXQ", "turbo": false, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TR-60SN" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 310, "acceleration": 7.5
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "R5", "volume": 2.5, "code": "BAC", "turbo": true, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TR-60SN" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 174, "acceleration": 10.5
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "BKS", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TR-60SN" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 225, "acceleration": 8.5
+            },
+            {
+              "name": "5.0 V10 TDI",
+              "engine": { "type": "V10", "volume": 5.0, "code": "AYH", "turbo": true, "cylinders": 10, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TR-60SN" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 313, "acceleration": 7.5
+            }
+          ]
+        },
+        {
+          "name": "II (7P)",
+          "years": "2010-2018",
+          "bodyTypes": ["Внедорожник"],
+          "trims": [
+            {
+              "name": "3.6 FSI",
+              "engine": { "type": "VR6", "volume": 3.6, "code": "CGRA", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic Aisin TR-80SD" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 280, "acceleration": 7.8
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CASB", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic Aisin TR-80SD" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 245, "acceleration": 7.6
+            },
+            {
+              "name": "4.2 V8 TDI",
+              "engine": { "type": "V8", "volume": 4.2, "code": "CKDA", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic Aisin TR-80SD" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 340, "acceleration": 5.8
+            }
+          ]
+        },
+        {
+          "name": "III (CR)",
+          "years": "2018-н.в.",
+          "bodyTypes": ["Внедорожник"],
+          "trims": [
+            {
+              "name": "3.0 TSI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "DCBE", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 340, "acceleration": 5.9
+            },
+            {
+              "name": "3.0 TDI",
+              "engine": { "type": "V6", "volume": 3.0, "code": "CVMD", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 286, "acceleration": 6.1
+            },
+            {
+              "name": "4.0 V8 TDI",
+              "engine": { "type": "V8", "volume": 4.0, "code": "CZCV", "turbo": true, "cylinders": 8, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 421, "acceleration": 4.9
+            },
+            {
+              "name": "R",
+              "engine": { "type": "V6 + Электро", "volume": 3.0, "code": "BJT", "turbo": true, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 8, "name": "Tiptronic ZF 8HP" },
+              "driveType": "Полный", "fuelType": "Гибрид", "powerHp": 462, "acceleration": 5.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transporter / Multivan",
+      "generations": [
+        {
+          "name": "T4",
+          "years": "1990-2003",
+          "bodyTypes": ["Микроавтобус", "Фургон", "California"],
+          "trims": [
+            {
+              "name": "2.0 MT",
+              "engine": { "type": "R4", "volume": 2.0, "code": "AAC", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 84, "acceleration": 19.2
+            },
+            {
+              "name": "2.5 MT",
+              "engine": { "type": "R5", "volume": 2.5, "code": "AAF", "turbo": false, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 110, "acceleration": 15.5
+            },
+            {
+              "name": "2.4 D",
+              "engine": { "type": "R5", "volume": 2.4, "code": "AAB", "turbo": false, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 78, "acceleration": 22.0
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "R5", "volume": 2.5, "code": "ACV", "turbo": true, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 102, "acceleration": 16.5
+            }
+          ]
+        },
+        {
+          "name": "T5",
+          "years": "2003-2015",
+          "bodyTypes": ["Микроавтобус", "Фургон", "California", "Caravelle"],
+          "trims": [
+            {
+              "name": "2.0 MT",
+              "engine": { "type": "R4", "volume": 2.0, "code": "AXA", "turbo": false, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 115, "acceleration": 15.3
+            },
+            {
+              "name": "3.2 VR6",
+              "engine": { "type": "VR6", "volume": 3.2, "code": "BKK", "turbo": false, "cylinders": 6, "valvesPerCylinder": 4 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TF-60SN" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 235, "acceleration": 10.5
+            },
+            {
+              "name": "1.9 TDI",
+              "engine": { "type": "R4", "volume": 1.9, "code": "AXB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 2 },
+              "transmission": { "type": "МКПП", "gears": 5 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 105, "acceleration": 15.3
+            },
+            {
+              "name": "2.5 TDI",
+              "engine": { "type": "R5", "volume": 2.5, "code": "BNZ", "turbo": true, "cylinders": 5, "valvesPerCylinder": 2 },
+              "transmission": { "type": "АКПП", "gears": 6, "name": "Tiptronic Aisin TF-60SN" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 174, "acceleration": 11.3
+            }
+          ]
+        },
+        {
+          "name": "T6 / T6.1",
+          "years": "2015-н.в.",
+          "bodyTypes": ["Микроавтобус", "Фургон", "California", "Caravelle"],
+          "trims": [
+            {
+              "name": "2.0 TSI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CJKB", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Передний", "fuelType": "Бензин", "powerHp": 150, "acceleration": 11.5
+            },
+            {
+              "name": "2.0 TSI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CJKE", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Полный", "fuelType": "Бензин", "powerHp": 204, "acceleration": 9.2
+            },
+            {
+              "name": "2.0 TDI",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CXHA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "МКПП", "gears": 6 },
+              "driveType": "Передний", "fuelType": "Дизель", "powerHp": 150, "acceleration": 12.5
+            },
+            {
+              "name": "2.0 BiTDI 4Motion",
+              "engine": { "type": "R4", "volume": 2.0, "code": "CFCA", "turbo": true, "cylinders": 4, "valvesPerCylinder": 4 },
+              "transmission": { "type": "Робот", "gears": 7, "name": "DSG DQ500" },
+              "driveType": "Полный", "fuelType": "Дизель", "powerHp": 199, "acceleration": 9.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ID.4",
+      "generations": [
+        {
+          "name": "I",
+          "years": "2020-н.в.",
+          "bodyTypes": ["Кроссовер"],
+          "trims": [
+            {
+              "name": "Pure",
+              "engine": { "type": "Электро", "volume": 0.0, "code": "APP310", "turbo": false, "cylinders": 0, "valvesPerCylinder": 0 },
+              "transmission": { "type": "Редуктор", "gears": 1 },
+              "driveType": "Задний", "fuelType": "Электро", "powerHp": 148, "acceleration": 10.9
+            },
+            {
+              "name": "Pro",
+              "engine": { "type": "Электро", "volume": 0.0, "code": "APP310", "turbo": false, "cylinders": 0, "valvesPerCylinder": 0 },
+              "transmission": { "type": "Редуктор", "gears": 1 },
+              "driveType": "Задний", "fuelType": "Электро", "powerHp": 204, "acceleration": 8.5
+            },
+            {
+              "name": "GTX",
+              "engine": { "type": "Электро", "volume": 0.0, "code": "APP310+APA310", "turbo": false, "cylinders": 0, "valvesPerCylinder": 0 },
+              "transmission": { "type": "Редуктор", "gears": 1 },
+              "driveType": "Полный", "fuelType": "Электро", "powerHp": 299, "acceleration": 6.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+]

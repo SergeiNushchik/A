@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">АвтоЖурнал</string>
+    <string name="widget_refuel_description">Быстрая запись заправок</string>
+</resources>
